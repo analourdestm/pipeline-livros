@@ -1,0 +1,7 @@
+{
+  "paginas": ["https://books.toscrape.com/", "https://books.toscrape.com/catalogue/page-2.html"],
+  "livros": [
+    ["https://books.toscrape.com/catalogue/livro-a_2/index.html", "Café e livros", 1234, "em estoque", 4],
+    ["https://books.toscrape.com/catalogue/livro-b_1/index.html", "Outro livro", 0, "sem estoque", 1]
+  ]
+}

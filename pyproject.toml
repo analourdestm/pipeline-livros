@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipeline-livros"
+version = "0.1.0"
+description = "Pipeline local para o catálogo Books to Scrape"
+readme = {text = "Pipeline local para o catálogo Books to Scrape.", content-type = "text/plain"}
+requires-python = ">=3.14,<3.15"
+dependencies = ["requests>=2.32,<3", "beautifulsoup4>=4.13,<5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4,<10"]
+
+[tool.setuptools]
+packages = ["pipeline_livros"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
